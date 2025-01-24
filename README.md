@@ -49,9 +49,5 @@ This project converts natural language queries into SQL statements using the GPT
    ```bash
    python setup.py install
    
-##Usage
-1.Run the application:
-   ```bash
-      txt_to_query.py
 
 

@@ -18,40 +18,7 @@ This project converts natural language queries into SQL statements using the GPT
    ```bash
    git clone https://github.com/Mrnobody2004/natural-language-to-sql.git
    cd natural-language-to-sql
-Install the required Python packages:
-bash
-Copy
-Edit
-pip install torch transformers
-Usage
-Run the script:
-bash
-Copy
-Edit
-python txt_to_query.py
-Input your natural language query when prompted.
-The generated SQL query will be displayed.
-Example
-Input:
+2. Install the required Python packages:  
+   ```bash
+   pip install torch transformers
 
-bash
-Copy
-Edit
-List all employees who joined after 2020.  
-Output:
-
-sql
-Copy
-Edit
-SELECT * FROM employees WHERE join_date > '2020-01-01';
-License
-This project is licensed under the MIT License.
-
-Author
-Mrnobody2004
-
-vbnet
-Copy
-Edit
-
-Let me know if you'd like to add or adjust anything!
